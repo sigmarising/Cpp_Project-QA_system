@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>d_login</class>
+ <widget class="QDialog" name="d_login">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>474</width>
+    <height>711</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="whatsThis">
+   <string/>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#d_login{
+    border-image: url(:/bg/resource/bg_login.png);
+}
+
+QLineEdit {
+    background-color: white;
+    border: 2px solid #868282;
+    border-radius: 5px;
+}
+
+QLineEdit:hover {
+    background-color: #F5EFEF;
+    border: 2px solid #868282;
+    border-radius: 5px;
+}
+
+QLabel {
+    color: #535151;
+}
+
+#pushButton_login_access {
+    background-color: white;
+    border-color: #535151;
+    color: #474343;
+    border: 2px solid #868282;
+    border-radius: 5px;
+    border-style: outset;
+}
+
+#pushButton_login_access:hover{
+    background-color: rgb(146,168,209);
+    border-color: rgb(146,168,209);
+    color: white;
+    border: 2px solid rgb(146,168,209);
+    border-radius: 5px;
+    border-style: outset;
+}
+ 
+#pushButton_login_login {
+    background-color: white;
+    border-color: #535151;
+    color: #474343;
+    border: 2px solid #868282;
+    border-radius: 5px;
+    border-style: outset;
+}
+
+#pushButton_login_login:hover{
+    background-color: rgb(146,168,209);
+    border-color: rgb(146,168,209);
+    color: white;
+    border: 2px solid rgb(146,168,209);
+    border-radius: 5px;
+    border-style: outset;
+}
+
+#pushButton_login_quit{
+    border-image: url(:/icons/resource/Close.png);
+}
+
+#pushButton_login_quit:hover{
+    border-image: url(:/icons/resource/Close_hover.png);
+}</string>
+  </property>
+  <widget class="QPushButton" name="pushButton_login_quit">
+   <property name="geometry">
+    <rect>
+     <x>435</x>
+     <y>8</y>
+     <width>30</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微软雅黑</family>
+     <pointsize>14</pointsize>
+     <stylestrategy>PreferDefault</stylestrategy>
+    </font>
+   </property>
+   <property name="toolTip">
+    <string>关闭程序</string>
+   </property>
+   <property name="whatsThis">
+    <string/>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_login_Name">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>480</y>
+     <width>241</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Consolas</family>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_login_Key">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>530</y>
+     <width>241</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Consolas</family>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="echoMode">
+    <enum>QLineEdit::Password</enum>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_login_access">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>630</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>黑体</family>
+     <pointsize>13</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>注  册</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_login_login">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>630</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>黑体</family>
+     <pointsize>13</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>登  陆</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_login_text1">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>480</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>黑体</family>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>用户名</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_login_text2">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>530</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>黑体</family>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>密  码</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_login_info">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>580</y>
+     <width>341</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>黑体</family>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

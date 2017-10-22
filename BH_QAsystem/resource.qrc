@@ -1,0 +1,42 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>resource/Arrow_Left_Default.png</file>
+        <file>resource/Arrow_Left_Hover.png</file>
+        <file>resource/Arrow_Right_Default.png</file>
+        <file>resource/Arrow_Right_Hover.png</file>
+        <file>resource/Focus_No.png</file>
+        <file>resource/Focus_Yes.png</file>
+        <file>resource/Praise_No.png</file>
+        <file>resource/Praise_Yes.png</file>
+        <file>resource/Close.png</file>
+        <file>resource/Close_hover.png</file>
+        <file>resource/back.png</file>
+        <file>resource/back_h.png</file>
+        <file>resource/pen.png</file>
+        <file>resource/pen_h.png</file>
+        <file>resource/reset.png</file>
+        <file>resource/reset_h.png</file>
+        <file>resource/search.png</file>
+        <file>resource/search_h.png</file>
+        <file>resource/me.png</file>
+        <file>resource/me_h.png</file>
+        <file>resource/ok.png</file>
+        <file>resource/ok_h.png</file>
+        <file>resource/Me_focus.png</file>
+        <file>resource/Me_key.png</file>
+        <file>resource/Me_logout.png</file>
+        <file>resource/Me_focusb.png</file>
+        <file>resource/Me_keyb.png</file>
+        <file>resource/Me_logoutb.png</file>
+    </qresource>
+    <qresource prefix="/bg">
+        <file>resource/bg_access.png</file>
+        <file>resource/bg_login.png</file>
+        <file>resource/bg_most_1.png</file>
+        <file>resource/bg_most_2.png</file>
+        <file>resource/bg_most_3.png</file>
+        <file>resource/bg_me.png</file>
+        <file>resource/bg_key.png</file>
+        <file>resource/bg_focus.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>d_focusFull</class>
+ <widget class="QDialog" name="d_focusFull">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>474</width>
+    <height>711</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#d_focusFull {
+    border-image: url(:/bg/resource/bg_most_2.png);
+}
+QLabel{
+	color:#EEE4E4;
+}
+#pushButton_focusfull_return{
+    border-image: url(:/icons/resource/back.png);
+}
+
+#pushButton_focusfull_return:hover{
+    border-image: url(:/icons/resource/back_h.png);
+}
+
+#pushButton_focusfull_Prev{
+    border-image: url(:/icons/resource/Arrow_Left_Default.png);
+}
+
+#pushButton_focusfull_Prev:hover{
+    border-image: url(:/icons/resource/Arrow_Left_Hover.png);
+}
+
+#pushButton_focusfull_Next{
+    border-image: url(:/icons/resource/Arrow_Right_Default.png);
+}
+
+#pushButton_focusfull_Next:hover{
+    border-image: url(:/icons/resource/Arrow_Right_Hover.png);
+}
+#listWidget_focusfull_list{
+    border: none;
+    background: #F5F1F1
+}</string>
+  </property>
+  <widget class="QPushButton" name="pushButton_focusfull_return">
+   <property name="geometry">
+    <rect>
+     <x>424</x>
+     <y>10</y>
+     <width>40</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="listWidget_focusfull_list">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>180</y>
+     <width>451</width>
+     <height>481</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_focusfull_Prev">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>666</y>
+     <width>40</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_focusfull_Next">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>666</y>
+     <width>40</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>13</x>
+     <y>9</y>
+     <width>221</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>黑体</family>
+     <pointsize>40</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>查看用户</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_focusfull_Username">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>90</y>
+     <width>341</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>黑体</family>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_focusfull_focus">
+   <property name="geometry">
+    <rect>
+     <x>424</x>
+     <y>60</y>
+     <width>40</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
